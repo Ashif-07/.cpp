@@ -3,6 +3,8 @@
 using namespace std;
 int binarytodecimal(int n)
 {
+    if(n==0)
+        return 0;
     int ans = 0, /*mul = 1;*/ pw = 0;
     while (n > 0)
     {
